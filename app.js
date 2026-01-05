@@ -7,4 +7,5 @@ app.listen(port,()=>{
     const cityrepo= new cityrepository();
     // cityrepo.createcity({name:"bhilai"});
     cityrepo.deletecity(10);
+    consolw.log("hello");
 })
